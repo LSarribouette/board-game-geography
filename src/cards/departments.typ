@@ -3,10 +3,11 @@
 #import "sheet.typ": deck
 #import "card.typ": department-card
 
-#let cog = yaml("/data/raw/cog.yaml")
-#let region-names = cog.regions.fold((:), (acc, r) => acc + ((r.code): r.nom))
+#let departments = yaml("/data/departements.yaml")
+#let regions = yaml("/data/regions.yaml")
+#let region-names = regions.fold((:), (acc, r) => acc + ((r.slug): r.nom))
 
-#deck(cog.departements.map(d => department-card(
+#deck(departments.map(d => department-card(
   d,
   region-names.at(d.region, default: "—"),
 )))

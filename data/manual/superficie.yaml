@@ -1,0 +1,26 @@
+source:
+  name: Superficie totale
+  publisher: INSEE
+  license: Licence Ouverte 2.0
+  vintage: "2023"
+  note: >
+    Séries chronologiques « Superficie totale » des cinq DROM, absents du jeu
+    de données communes-france. Valeurs en 2023, converties depuis les
+    milliers d'hectares publiés par l'INSEE (1 millier d'hectares = 10 km²).
+
+superficie_km2:
+  '971':
+    valeur: 1634
+    url: https://www.insee.fr/fr/statistiques/serie/001751747
+  '972':
+    valeur: 1087
+    url: https://www.insee.fr/fr/statistiques/serie/001751748
+  '973':
+    valeur: 83657
+    url: https://www.insee.fr/fr/statistiques/serie/001751749
+  '974':
+    valeur: 2503
+    url: https://www.insee.fr/fr/statistiques/serie/001751750
+  '976':
+    valeur: 366
+    url: https://www.insee.fr/fr/statistiques/serie/010605946

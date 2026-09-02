@@ -10,6 +10,7 @@ import unicodedata
 from pathlib import Path
 
 import yaml
+from yaml_io import write_yaml
 
 SOURCE_KEY = "cog"
 SOURCE_META = {
@@ -33,11 +34,14 @@ def main() -> None:
     departments = build_departments(read_csv(DEPARTMENT_FILE), communes)
     regions = build_regions(read_csv(REGION_FILE), communes)
 
-    write_yaml({
-        "source": SOURCE_META,
-        "departements": departments,
-        "regions": regions,
-    })
+    write_yaml(
+        {
+            "source": SOURCE_META,
+            "departements": departments,
+            "regions": regions,
+        },
+        OUTPUT,
+    )
     print(f"{len(departments)} départements, {len(regions)} régions -> {OUTPUT}")
 
 
@@ -109,12 +113,6 @@ def slugify(label: str) -> str:
     ascii_only = "".join(c for c in decomposed if not unicodedata.combining(c))
     cleaned = "".join(c if c.isalnum() else "-" for c in ascii_only.lower())
     return "-".join(part for part in cleaned.split("-") if part)
-
-
-def write_yaml(data: dict) -> None:
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    with OUTPUT.open("w", encoding="utf-8") as handle:
-        yaml.dump(data, handle, allow_unicode=True, sort_keys=False)
 
 
 if __name__ == "__main__":

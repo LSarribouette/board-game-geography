@@ -3,47 +3,52 @@
 ## Prérequis
 
 - [uv](https://docs.astral.sh/uv/)
+- [Typst](https://github.com/typst/typst)
 
-Les dépendances sont déclarées dans chaque script (PEP 723) : uv les installe
-à la volée, rien à préparer.
+Les dépendances Python sont déclarées dans chaque script (PEP 723) : uv les
+installe à la volée, rien à préparer.
 
-## 1. Télécharger le COG
+## 1. Télécharger les sources
 
-Le script ne télécharge rien lui-même : les URL de l'INSEE contiennent un
+Les scripts ne téléchargent rien eux-mêmes : les URL de l'INSEE contiennent un
 identifiant qui change à chaque millésime.
 
-```sh
-mkdir -p data/downloads/cog
-curl -L -o data/downloads/cog/cog_2026.zip "https://www.insee.fr/fr/statistiques/fichier/8740222/cog_ensemble_2026_csv.zip"
-unzip -o data/downloads/cog/cog_2026.zip -d data/downloads/cog
+```bash
+just download
 ```
-
-Pour un autre millésime, prendre l'URL sur
-<https://www.insee.fr/fr/information/2560452>.
 
 ## 2. Construire les données
 
-```sh
-uv run src/data/fetch_cog.py    # -> data/raw/cog.yaml
+```bash
+just build
 ```
 
-Produit les 101 départements (code, nom, statut, région, préfecture) et les
-18 régions (code, nom, chef-lieu).
+Chaque `fetch_*` lit une source et écrit un intermédiaire dans `data/raw/`.
+`merge.py` les combine, résout les codes en slugs, et régénère `CREDITS.md`
+à partir des métadonnées déclarées par chaque script.
 
-Les fichiers de `data/raw/` sont générés : ne pas les éditer.
+Produit les 101 départements et les 18 régions.
+
+> Les fichiers de `data/downloads/` et `data/raw/` sont générés : ne pas les
+> éditer. Les données saisies à la main vivent dans `data/manual/`.
 
 ## 3. Générer les cartes
 
-```sh
-typst compile --root . src/cards/departments.typ print/cards-departments.pdf
-typst compile --root . src/cards/regions.typ     print/cards-regions.pdf
+```bash
+just print
+
+# when developping
+just watch regions
+just watch departments
 ```
 
 `--root .` est nécessaire : sans lui, Typst refuse de lire `/data/`.
 
-Sortie : 12 pages A4, 9 cartes par page, 101 cartes département.
+Sortie : 12 pages A4 pour les départements, 2 pages pour les régions,
+9 cartes par page.
 
-- `main.typ` — feuille, grille, chargement des données
+- `departments.typ`, `regions.typ` — un paquet, chargement des données
+- `sheet.typ` — feuille A4 et grille
 - `card.typ` — mise en page d'une carte
 - `theme.typ` — géométrie et typographie
 

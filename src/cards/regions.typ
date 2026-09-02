@@ -3,6 +3,4 @@
 #import "sheet.typ": deck
 #import "card.typ": region-card
 
-#let cog = yaml("/data/raw/cog.yaml")
-
-#deck(cog.regions.map(region-card))
+#deck(yaml("/data/regions.yaml").map(region-card))

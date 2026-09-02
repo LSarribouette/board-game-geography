@@ -17,6 +17,12 @@
   #set text(size: 8pt)
   #list(
     [Préfecture : #dept.prefecture],
+    ..if "population" in dept {
+      ([Population : #format-number(dept.population) habitants],)
+    } else { () },
+    ..if "superficie_km2" in dept {
+      ([Superficie : #format-number(dept.superficie_km2) km#super[2]],)
+    } else { () },
   )
 ]
 

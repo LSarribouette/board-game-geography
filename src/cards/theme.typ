@@ -16,3 +16,12 @@
 #let cut-line = 0.25pt + luma(180)
 
 #let base-text = (font: "Libertinus Serif", size: 9pt)
+
+// 679344 -> 679 344, with a non-breaking thin space.
+#let format-number(value) = {
+  let digits = str(value).clusters().rev()
+  let groups = range(0, digits.len(), step: 3).map(i => (
+    digits.slice(i, calc.min(i + 3, digits.len())).rev().join()
+  ))
+  groups.rev().join(sym.space.nobreak.narrow)
+}
