@@ -1,0 +1,191 @@
+sources:
+  cours_eau:
+    name: Référentiel hydrographique
+    publisher: SANDRE
+    url: https://www.sandre.eaufrance.fr
+    license: Licence Ouverte 2.0
+    note: >
+      Sélection éditoriale : les 5 grands fleuves de France métropolitaine,
+      2 affluents majeurs pour chacun, et les 2 fleuves frontaliers de Guyane.
+    convention: >
+      Un département est retenu dès que le cours d'eau le traverse ou le longe,
+      y compris lorsqu'il sert de limite départementale ou de frontière.
+
+  massifs:
+    name: Les périmètres de massifs
+    publisher: Ministère de la Cohésion des territoires
+    url: https://www.data.gouv.fr/datasets/les-perimetres-de-massifs
+    license: Licence Ouverte 2.0
+    note: >
+      6 massifs délimités par le décret n° 2004-69 du 16 janvier 2004 en
+      application de la loi Montagne. Les Ardennes et le Massif armoricain
+      sont ajoutés hors zonage légal (champ `legal: false`).
+    convention: >
+      Un département est retenu dès qu'au moins une de ses communes appartient
+      au périmètre du massif, sans seuil de surface. Pour les Ardennes et le
+      Massif armoricain, hors zonage légal, l'emprise géologique fait foi.
+
+  facades_maritimes:
+    name: Façades maritimes
+    publisher: Choix éditorial
+    license: —
+    note: >
+      Fondé sur le découpage officiel des documents stratégiques de façade,
+      redécoupé par mer et par océan : la Manche, l'Atlantique et la
+      Méditerranée sont distinguées pour leur valeur pédagogique, là où le
+      découpage officiel regroupe Manche Est et mer du Nord, puis Manche
+      Ouest et Atlantique Nord, selon les écosystèmes marins.
+    convention: >
+      Un département est retenu s'il borde la mer, estuaires inclus. Un
+      département bordant deux façades figure dans les deux listes.
+
+  parcs_nationaux:
+    name: Les parcs nationaux de France
+    publisher: Office français de la biodiversité
+    url: https://www.parcsnationaux.fr
+    license: —
+    convention: >
+      Départements du cœur et de l'aire optimale d'adhésion, telle que fixée
+      par le décret de création du parc. L'aire d'adhésion effective, qui
+      dépend de l'adhésion volontaire des communes à la charte, n'est pas
+      retenue car elle évolue dans le temps.
+
+  pays:
+    name: Les frontières de la France
+    publisher: Ministère de l'Intérieur
+    url: https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/
+    license: —
+    note: >
+      8 pays frontaliers en métropole, 2 en Guyane. Les Pays-Bas sont ajoutés
+      au titre de la frontière de 13 km sur l'île de Saint-Martin, absente de
+      cette page.
+    convention: >
+      Frontières terrestres uniquement. Un département est retenu si sa limite
+      administrative coïncide avec la frontière internationale.
+
+  langues:
+    name: Les langues de la France
+    publisher: DGLFLF / Bernard Cerquiglini
+    url: https://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/994000719.pdf
+    vintage: "1999"
+    license: —
+    note: >
+      Sélection de 31 langues territorialisées sur les 82 recensées par la
+      DGLFLF. Les langues sans territoire (yiddish, romani, arménien
+      occidental, berbère, arabe dialectal) sont exclues : elles ne peuvent
+      pas être placées sur une carte. Les langues kanak et polynésiennes
+      sont regroupées par famille.
+    convention: >
+      Aires linguistiques historiques maximales, et non l'usage contemporain.
+      Ni le rapport Cerquiglini ni la DGLFLF ne cartographient ces aires : le
+      rattachement aux départements est un choix éditorial. Un département est
+      retenu dès qu'une partie de son territoire relève de l'aire. Les
+      chevauchements sont assumés : les zones de transition, notamment le
+      Croissant entre langues d'oïl et occitan, figurent dans les deux listes.
+
+cours_eau:
+  # Grands fleuves
+  - { slug: loire, nom: Loire, type: fleuve, departements: [], com: [] }
+  - { slug: seine, nom: Seine, type: fleuve, departements: [], com: [] }
+  - { slug: rhone, nom: Rhône, type: fleuve, departements: [], com: [] }
+  - { slug: garonne, nom: Garonne, type: fleuve, departements: [], com: [] }
+  - { slug: rhin, nom: Rhin, type: fleuve, departements: [], com: [] }
+  # Affluents
+  - { slug: allier, nom: Allier, type: affluent, affluent_de: loire, departements: [], com: [] }
+  - { slug: cher, nom: Cher, type: affluent, affluent_de: loire, departements: [], com: [] }
+  - { slug: marne, nom: Marne, type: affluent, affluent_de: seine, departements: [], com: [] }
+  - { slug: oise, nom: Oise, type: affluent, affluent_de: seine, departements: [], com: [] }
+  - { slug: saone, nom: Saône, type: affluent, affluent_de: rhone, departements: [], com: [] }
+  - { slug: durance, nom: Durance, type: affluent, affluent_de: rhone, departements: [], com: [] }
+  - { slug: dordogne, nom: Dordogne, type: affluent, affluent_de: garonne, departements: [], com: [] }
+  - { slug: lot, nom: Lot, type: affluent, affluent_de: garonne, departements: [], com: [] }
+  - { slug: moselle, nom: Moselle, type: affluent, affluent_de: rhin, departements: [], com: [] }
+  - { slug: ill, nom: Ill, type: affluent, affluent_de: rhin, departements: [], com: [] }
+  # Guyane
+  - { slug: maroni, nom: Maroni, type: fleuve, departements: [], com: [] }
+  - { slug: oyapock, nom: Oyapock, type: fleuve, departements: [], com: [] }
+
+massifs:
+  - { slug: alpes, nom: Alpes, legal: true, departements: [], com: [] }
+  - { slug: pyrenees, nom: Pyrénées, legal: true, departements: [], com: [] }
+  - { slug: massif-central, nom: Massif central, legal: true, departements: [], com: [] }
+  - { slug: jura, nom: Jura, legal: true, departements: [], com: [] }
+  - { slug: vosges, nom: Vosges, legal: true, departements: [], com: [] }
+  - { slug: corse, nom: Corse, legal: true, departements: [], com: [] }
+  - { slug: ardennes, nom: Ardennes, legal: false, departements: [], com: [] }
+  - { slug: armoricain, nom: Massif armoricain, legal: false, departements: [], com: [] }
+
+facades_maritimes:
+  - { slug: mer-du-nord, nom: Mer du Nord, departements: [], com: [] }
+  - { slug: manche, nom: Manche, departements: [], com: [] }
+  - { slug: atlantique, nom: Océan Atlantique, departements: [], com: [] }
+  - { slug: mediterranee, nom: Mer Méditerranée, departements: [], com: [] }
+  - { slug: caraibes, nom: Mer des Caraïbes, departements: [], com: [] }
+  - { slug: indien, nom: Océan Indien, departements: [], com: [] }
+  - { slug: pacifique, nom: Océan Pacifique, departements: [], com: [] }
+  - { slug: austral, nom: Océan Austral, departements: [], com: [] }
+
+parcs_nationaux:
+  - { slug: vanoise, nom: Vanoise, departements: ["73"], com: [] }
+  - { slug: port-cros, nom: Port-Cros, departements: ["83"], com: [] }
+  - { slug: pyrenees, nom: Pyrénées, departements: ["64", "65"], com: [] }
+  - { slug: cevennes, nom: Cévennes, departements: ["07", "30", "48"], com: [] }
+  - { slug: ecrins, nom: Écrins, departements: ["05", "38"], com: [] }
+  - { slug: mercantour, nom: Mercantour, departements: ["04", "06"], com: [] }
+  - { slug: guadeloupe, nom: Guadeloupe, departements: ["971"], com: [] }
+  - { slug: reunion, nom: La Réunion, departements: ["974"], com: [] }
+  - { slug: guyane, nom: Guyane, departements: ["973"], com: [] }
+  - { slug: calanques, nom: Calanques, departements: ["13"], com: [] }
+  - { slug: forets, nom: Forêts, departements: ["21", "52"], com: [] }
+
+pays:
+  - { slug: belgique, nom: Belgique, departements: [], com: [] }
+  - { slug: luxembourg, nom: Luxembourg, departements: [], com: [] }
+  - { slug: allemagne, nom: Allemagne, departements: [], com: [] }
+  - { slug: suisse, nom: Suisse, departements: [], com: [] }
+  - { slug: italie, nom: Italie, departements: [], com: [] }
+  - { slug: espagne, nom: Espagne, departements: [], com: [] }
+  - { slug: andorre, nom: Andorre, departements: [], com: [] }
+  - { slug: monaco, nom: Monaco, departements: [], com: [] }
+  - { slug: bresil, nom: Brésil, departements: [], com: [] }
+  - { slug: suriname, nom: Suriname, departements: [], com: [] }
+  - { slug: pays-bas, nom: Pays-Bas, departements: [], com: [] }
+
+langues:
+  # Oïl
+  - { slug: gallo, nom: Gallo, famille: oil, departements: [], com: [] }
+  - { slug: normand, nom: Normand, famille: oil, departements: [], com: [] }
+  - { slug: picard, nom: Picard, famille: oil, departements: [], com: [] }
+  - { slug: poitevin-saintongeais, nom: Poitevin-saintongeais, famille: oil, departements: [], com: [] }
+  - { slug: lorrain-roman, nom: Lorrain roman, famille: oil, departements: [], com: [] }
+  - { slug: bourguignon-morvandiau, nom: Bourguignon-morvandiau, famille: oil, departements: [], com: [] }
+  - { slug: champenois, nom: Champenois, famille: oil, departements: [], com: [] }
+  - { slug: franc-comtois, nom: Franc-comtois, famille: oil, departements: [], com: [] }
+  - { slug: wallon, nom: Wallon, famille: oil, departements: [], com: [] }
+  # Autres langues de métropole
+  - { slug: occitan, nom: Occitan, famille: oc, departements: [], com: [] }
+  - { slug: catalan, nom: Catalan, famille: roman, departements: [], com: [] }
+  - { slug: basque, nom: Basque, famille: isolat, departements: [], com: [] }
+  - { slug: breton, nom: Breton, famille: celtique, departements: [], com: [] }
+  - { slug: corse, nom: Corse, famille: roman, departements: [], com: [] }
+  - { slug: franco-provencal, nom: Franco-provençal, famille: roman, departements: [], com: [] }
+  - { slug: alsacien, nom: Alsacien, famille: germanique, departements: [], com: [] }
+  - { slug: francique-mosellan, nom: Francique mosellan, famille: germanique, departements: [], com: [] }
+  - { slug: flamand-occidental, nom: Flamand occidental, famille: germanique, departements: [], com: [] }
+  # Créoles
+  - { slug: creole-guadeloupeen, nom: Créole guadeloupéen, famille: creole, departements: [], com: [] }
+  - { slug: creole-martiniquais, nom: Créole martiniquais, famille: creole, departements: [], com: [] }
+  - { slug: creole-guyanais, nom: Créole guyanais, famille: creole, departements: [], com: [] }
+  - { slug: creole-reunionnais, nom: Créole réunionnais, famille: creole, departements: [], com: [] }
+  - { slug: bushinenge, nom: Langues bushinenge, famille: creole, departements: [], com: [] }
+  # Guyane
+  - { slug: amerindiennes, nom: Langues amérindiennes, famille: amerindien, departements: [], com: [] }
+  - { slug: hmong, nom: Hmong, famille: hmong-mien, departements: [], com: [] }
+  # Mayotte
+  - { slug: shimaore, nom: Shimaore, famille: bantou, departements: [], com: [] }
+  - { slug: kibushi, nom: Kibushi, famille: austronesien, departements: [], com: [] }
+  # Pacifique
+  - { slug: langues-kanak, nom: Langues kanak, famille: austronesien, departements: [], com: [] }
+  - { slug: langues-polynesiennes, nom: Langues polynésiennes, famille: austronesien, departements: [], com: [] }
+  - { slug: wallisien, nom: Wallisien, famille: austronesien, departements: [], com: [] }
+  - { slug: futunien, nom: Futunien, famille: austronesien, departements: [], com: [] }

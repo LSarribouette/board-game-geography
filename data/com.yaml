@@ -1,0 +1,117 @@
+- 'code': '975'
+  'slug': 'saint-pierre-et-miquelon'
+  'nom': 'Saint-Pierre-et-Miquelon'
+  'sources':
+    '_defaut': 'cog'
+    'chef_lieu': 'insee-com'
+    'population': 'insee-com'
+    'superficie_km2': 'insee-com'
+    'statut': 'statuts'
+  'chef_lieu': 'Saint-Pierre'
+  'population': 5790
+  'superficie_km2': 242
+  'statut': 'com'
+- 'code': '977'
+  'slug': 'saint-barthelemy'
+  'nom': 'Saint-Barthélemy'
+  'sources':
+    '_defaut': 'cog'
+    'chef_lieu': 'insee-com'
+    'population': 'insee-com'
+    'superficie_km2': 'insee-com'
+    'statut': 'statuts'
+  'chef_lieu': 'Gustavia'
+  'population': 10660
+  'superficie_km2': 21
+  'statut': 'com'
+- 'code': '978'
+  'slug': 'saint-martin'
+  'nom': 'Saint-Martin'
+  'sources':
+    '_defaut': 'cog'
+    'chef_lieu': 'insee-com'
+    'population': 'insee-com'
+    'superficie_km2': 'insee-com'
+    'statut': 'statuts'
+  'chef_lieu': 'Marigot'
+  'population': 31160
+  'superficie_km2': 53
+  'statut': 'com'
+- 'code': '981'
+  'slug': 'ile-des-faisans'
+  'nom': 'Île des Faisans'
+  'sources':
+    '_defaut': 'cog'
+    'population': 'insee-com'
+    'statut': 'statuts'
+  'population': 0
+  'statut': 'condominium'
+- 'code': '984'
+  'slug': 'terres-australes-et-antarctiques-francaises'
+  'nom': 'Terres australes et antarctiques françaises'
+  'sources':
+    '_defaut': 'cog'
+    'chef_lieu': 'insee-com'
+    'chef_lieu_type': 'insee-com'
+    'population': 'insee-com'
+    'superficie_km2': 'insee-com'
+    'statut': 'statuts'
+  'chef_lieu': 'Saint-Pierre de La Réunion'
+  'chef_lieu_type': 'siege'
+  'population': 0
+  'superficie_km2': 7659
+  'statut': 'territoire'
+- 'code': '986'
+  'slug': 'wallis-et-futuna'
+  'nom': 'Wallis-et-Futuna'
+  'sources':
+    '_defaut': 'cog'
+    'chef_lieu': 'insee-com'
+    'population': 'insee-com'
+    'superficie_km2': 'insee-com'
+    'statut': 'statuts'
+  'chef_lieu': 'Mata-Utu'
+  'population': 11151
+  'superficie_km2': 140
+  'statut': 'com'
+- 'code': '987'
+  'slug': 'polynesie-francaise'
+  'nom': 'Polynésie française'
+  'sources':
+    '_defaut': 'cog'
+    'chef_lieu': 'insee-com'
+    'chef_lieu_type': 'insee-com'
+    'population': 'insee-com'
+    'superficie_km2': 'insee-com'
+    'statut': 'statuts'
+  'chef_lieu': 'Papeete'
+  'chef_lieu_type': 'siege'
+  'population': 278786
+  'superficie_km2': 3793
+  'statut': 'com'
+- 'code': '988'
+  'slug': 'nouvelle-caledonie'
+  'nom': 'Nouvelle-Calédonie'
+  'sources':
+    '_defaut': 'cog'
+    'chef_lieu': 'insee-com'
+    'chef_lieu_type': 'insee-com'
+    'population': 'insee-com'
+    'superficie_km2': 'insee-com'
+    'statut': 'statuts'
+  'chef_lieu': 'Nouméa'
+  'chef_lieu_type': 'siege'
+  'population': 264596
+  'superficie_km2': 18576
+  'statut': 'collectivite-a-statut-particulier'
+- 'code': '989'
+  'slug': 'la-passion-clipperton'
+  'nom': 'La Passion-Clipperton'
+  'sources':
+    '_defaut': 'cog'
+    'population': 'insee-com'
+    'superficie_km2': 'insee-com'
+    'statut': 'statuts'
+  'population': 0
+  'superficie_km2': 2
+  'statut': 'territoire'

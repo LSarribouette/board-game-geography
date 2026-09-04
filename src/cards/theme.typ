@@ -17,6 +17,18 @@
 
 #let base-text = (font: "Libertinus Serif", size: 9pt)
 
+#let scale-labels = (
+  france: "France",
+  region: "Régions",
+  departement: "Départements",
+  com: "Collectivités et territoires",
+)
+
+#let scale-marker(label) = place(
+  bottom + center,
+  text(size: 7pt, fill: muted)[#label],
+)
+
 // 679344 -> 679 344, with a non-breaking thin space.
 #let format-number(value) = {
   let digits = str(value).clusters().rev()

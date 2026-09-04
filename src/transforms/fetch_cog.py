@@ -9,7 +9,6 @@ import csv
 import unicodedata
 from pathlib import Path
 
-import yaml
 from yaml_io import write_yaml
 
 SOURCE_KEY = "cog"
@@ -27,37 +26,49 @@ OUTPUT = Path("data/raw/cog.yaml")
 DEPARTMENT_FILE = "v_departement_2026.csv"
 REGION_FILE = "v_region_2026.csv"
 COMMUNE_FILE = "v_commune_2026.csv"
+COM_FILE = "v_comer_2026.csv"
 
 
 def main() -> None:
     communes = index_communes(read_csv(COMMUNE_FILE))
     departments = build_departments(read_csv(DEPARTMENT_FILE), communes)
+    com = build_com(read_csv(COM_FILE))
     regions = build_regions(read_csv(REGION_FILE), communes)
 
-    write_yaml(
-        {
-            "source": SOURCE_META,
-            "departements": departments,
-            "regions": regions,
-        },
-        OUTPUT,
-    )
-    print(f"{len(departments)} départements, {len(regions)} régions -> {OUTPUT}")
+    write_yaml({
+        "source": SOURCE_META,
+        "departements": build_departments(read_csv(DEPARTMENT_FILE), communes),
+        "com": build_com(read_csv(COM_FILE)),
+        "regions": build_regions(read_csv(REGION_FILE), communes),
+    }, OUTPUT)
+    print(f"{len(departments)} départements, "
+          f"{len(com)} collectivités et territoires d'Outre Mer, "
+          f"{len(regions)} régions -> {OUTPUT}")
 
 
 def build_departments(rows: list[dict], communes: dict[str, str]) -> list[dict]:
-    """Map COG department rows onto the game's YAML schema."""
     return [
         {
             "code": row["DEP"],
             "slug": slugify(row["LIBELLE"]),
             "nom": row["LIBELLE"],
-            "statut": status_of(row["DEP"]),
             "region": row["REG"],
             "prefecture": resolve(communes, row["CHEFLIEU"], row["LIBELLE"]),
             "sources": {"_defaut": SOURCE_KEY},
         }
         for row in sorted(rows, key=lambda r: r["DEP"])
+    ]
+
+
+def build_com(rows: list[dict]) -> list[dict]:
+    return [
+        {
+            "code": row["COMER"],
+            "slug": slugify(row["LIBELLE"]),
+            "nom": row["LIBELLE"],
+            "sources": {"_defaut": SOURCE_KEY},
+        }
+        for row in sorted(rows, key=lambda r: r["COMER"])
     ]
 
 
@@ -74,22 +85,13 @@ def build_regions(rows: list[dict], communes: dict[str, str]) -> list[dict]:
     ]
 
 
-def status_of(code: str) -> str:
-    """Overseas departments are the five three-digit codes starting with 97."""
-    return "drom" if code.startswith("97") else "metropole"
-
-
 def index_communes(rows: list[dict]) -> dict[str, str]:
-    """Map commune code to label, to resolve CHEFLIEU references.
+    """Map commune code to label, so CHEFLIEU references can be resolved.
 
     Filter on TYPECOM: delegated and associated communes share codes with
     actual communes, so an unfiltered index silently overwrites entries.
     """
-    return {
-        row["COM"]: row["LIBELLE"]
-        for row in rows
-        if row["TYPECOM"] == "COM"
-    }
+    return {row["COM"]: row["LIBELLE"] for row in rows if row["TYPECOM"] == "COM"}
 
 
 def resolve(communes: dict[str, str], code: str, context: str) -> str:
@@ -102,7 +104,7 @@ def resolve(communes: dict[str, str], code: str, context: str) -> str:
 def read_csv(filename: str) -> list[dict]:
     path = INPUT_DIR / filename
     if not path.exists():
-        raise FileNotFoundError(f"{path} — run `just fetch-cog` first")
+        raise FileNotFoundError(f"{path} — unzip the COG archive first")
     with path.open(encoding="utf-8") as handle:
         return list(csv.DictReader(handle))
 

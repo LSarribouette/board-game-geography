@@ -12,15 +12,15 @@ départements, régions, reliefs, cours d'eau et cultures locales.
 
 - [Règles du jeu](rules/game.md)
 - [Objectifs pédagogiques](rules/learning-goals.md)
-- [Cartes Départements à imprimer](print/cards-departments.pdf)
-- [Cartes Régions à imprimer](print/cards-regions.pdf)
+- [Cartes imprimer](print/)
 
 ## Générer les cartes
 
 Avec [Typst](https://typst.app/) et [just](https://just.systems/) installés :
 
 ```sh
-just cards
+just build
+just print
 ```
 
 Les détails sur les données et la génération sont documentés dans

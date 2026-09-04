@@ -8,7 +8,6 @@
 - 'code': '01'
   'slug': 'ain'
   'nom': 'Ain'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Bourg-en-Bresse'
   'sources':
@@ -16,7 +15,6 @@
 - 'code': '02'
   'slug': 'aisne'
   'nom': 'Aisne'
-  'statut': 'metropole'
   'region': '32'
   'prefecture': 'Laon'
   'sources':
@@ -24,7 +22,6 @@
 - 'code': '03'
   'slug': 'allier'
   'nom': 'Allier'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Moulins'
   'sources':
@@ -32,7 +29,6 @@
 - 'code': '04'
   'slug': 'alpes-de-haute-provence'
   'nom': 'Alpes-de-Haute-Provence'
-  'statut': 'metropole'
   'region': '93'
   'prefecture': 'Digne-les-Bains'
   'sources':
@@ -40,7 +36,6 @@
 - 'code': '05'
   'slug': 'hautes-alpes'
   'nom': 'Hautes-Alpes'
-  'statut': 'metropole'
   'region': '93'
   'prefecture': 'Gap'
   'sources':
@@ -48,7 +43,6 @@
 - 'code': '06'
   'slug': 'alpes-maritimes'
   'nom': 'Alpes-Maritimes'
-  'statut': 'metropole'
   'region': '93'
   'prefecture': 'Nice'
   'sources':
@@ -56,7 +50,6 @@
 - 'code': '07'
   'slug': 'ardeche'
   'nom': 'Ardèche'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Privas'
   'sources':
@@ -64,7 +57,6 @@
 - 'code': '08'
   'slug': 'ardennes'
   'nom': 'Ardennes'
-  'statut': 'metropole'
   'region': '44'
   'prefecture': 'Charleville-Mézières'
   'sources':
@@ -72,7 +64,6 @@
 - 'code': '09'
   'slug': 'ariege'
   'nom': 'Ariège'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Foix'
   'sources':
@@ -80,7 +71,6 @@
 - 'code': '10'
   'slug': 'aube'
   'nom': 'Aube'
-  'statut': 'metropole'
   'region': '44'
   'prefecture': 'Troyes'
   'sources':
@@ -88,7 +78,6 @@
 - 'code': '11'
   'slug': 'aude'
   'nom': 'Aude'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Carcassonne'
   'sources':
@@ -96,7 +85,6 @@
 - 'code': '12'
   'slug': 'aveyron'
   'nom': 'Aveyron'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Rodez'
   'sources':
@@ -104,7 +92,6 @@
 - 'code': '13'
   'slug': 'bouches-du-rhone'
   'nom': 'Bouches-du-Rhône'
-  'statut': 'metropole'
   'region': '93'
   'prefecture': 'Marseille'
   'sources':
@@ -112,7 +99,6 @@
 - 'code': '14'
   'slug': 'calvados'
   'nom': 'Calvados'
-  'statut': 'metropole'
   'region': '28'
   'prefecture': 'Caen'
   'sources':
@@ -120,7 +106,6 @@
 - 'code': '15'
   'slug': 'cantal'
   'nom': 'Cantal'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Aurillac'
   'sources':
@@ -128,7 +113,6 @@
 - 'code': '16'
   'slug': 'charente'
   'nom': 'Charente'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Angoulême'
   'sources':
@@ -136,7 +120,6 @@
 - 'code': '17'
   'slug': 'charente-maritime'
   'nom': 'Charente-Maritime'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'La Rochelle'
   'sources':
@@ -144,7 +127,6 @@
 - 'code': '18'
   'slug': 'cher'
   'nom': 'Cher'
-  'statut': 'metropole'
   'region': '24'
   'prefecture': 'Bourges'
   'sources':
@@ -152,7 +134,6 @@
 - 'code': '19'
   'slug': 'correze'
   'nom': 'Corrèze'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Tulle'
   'sources':
@@ -160,7 +141,6 @@
 - 'code': '21'
   'slug': 'cote-d-or'
   'nom': 'Côte-d''Or'
-  'statut': 'metropole'
   'region': '27'
   'prefecture': 'Dijon'
   'sources':
@@ -168,7 +148,6 @@
 - 'code': '22'
   'slug': 'cotes-d-armor'
   'nom': 'Côtes-d''Armor'
-  'statut': 'metropole'
   'region': '53'
   'prefecture': 'Saint-Brieuc'
   'sources':
@@ -176,7 +155,6 @@
 - 'code': '23'
   'slug': 'creuse'
   'nom': 'Creuse'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Guéret'
   'sources':
@@ -184,7 +162,6 @@
 - 'code': '24'
   'slug': 'dordogne'
   'nom': 'Dordogne'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Périgueux'
   'sources':
@@ -192,7 +169,6 @@
 - 'code': '25'
   'slug': 'doubs'
   'nom': 'Doubs'
-  'statut': 'metropole'
   'region': '27'
   'prefecture': 'Besançon'
   'sources':
@@ -200,7 +176,6 @@
 - 'code': '26'
   'slug': 'drome'
   'nom': 'Drôme'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Valence'
   'sources':
@@ -208,7 +183,6 @@
 - 'code': '27'
   'slug': 'eure'
   'nom': 'Eure'
-  'statut': 'metropole'
   'region': '28'
   'prefecture': 'Évreux'
   'sources':
@@ -216,7 +190,6 @@
 - 'code': '28'
   'slug': 'eure-et-loir'
   'nom': 'Eure-et-Loir'
-  'statut': 'metropole'
   'region': '24'
   'prefecture': 'Chartres'
   'sources':
@@ -224,7 +197,6 @@
 - 'code': '29'
   'slug': 'finistere'
   'nom': 'Finistère'
-  'statut': 'metropole'
   'region': '53'
   'prefecture': 'Quimper'
   'sources':
@@ -232,7 +204,6 @@
 - 'code': '2A'
   'slug': 'corse-du-sud'
   'nom': 'Corse-du-Sud'
-  'statut': 'metropole'
   'region': '94'
   'prefecture': 'Ajaccio'
   'sources':
@@ -240,7 +211,6 @@
 - 'code': '2B'
   'slug': 'haute-corse'
   'nom': 'Haute-Corse'
-  'statut': 'metropole'
   'region': '94'
   'prefecture': 'Bastia'
   'sources':
@@ -248,7 +218,6 @@
 - 'code': '30'
   'slug': 'gard'
   'nom': 'Gard'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Nîmes'
   'sources':
@@ -256,7 +225,6 @@
 - 'code': '31'
   'slug': 'haute-garonne'
   'nom': 'Haute-Garonne'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Toulouse'
   'sources':
@@ -264,7 +232,6 @@
 - 'code': '32'
   'slug': 'gers'
   'nom': 'Gers'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Auch'
   'sources':
@@ -272,7 +239,6 @@
 - 'code': '33'
   'slug': 'gironde'
   'nom': 'Gironde'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Bordeaux'
   'sources':
@@ -280,7 +246,6 @@
 - 'code': '34'
   'slug': 'herault'
   'nom': 'Hérault'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Montpellier'
   'sources':
@@ -288,7 +253,6 @@
 - 'code': '35'
   'slug': 'ille-et-vilaine'
   'nom': 'Ille-et-Vilaine'
-  'statut': 'metropole'
   'region': '53'
   'prefecture': 'Rennes'
   'sources':
@@ -296,7 +260,6 @@
 - 'code': '36'
   'slug': 'indre'
   'nom': 'Indre'
-  'statut': 'metropole'
   'region': '24'
   'prefecture': 'Châteauroux'
   'sources':
@@ -304,7 +267,6 @@
 - 'code': '37'
   'slug': 'indre-et-loire'
   'nom': 'Indre-et-Loire'
-  'statut': 'metropole'
   'region': '24'
   'prefecture': 'Tours'
   'sources':
@@ -312,7 +274,6 @@
 - 'code': '38'
   'slug': 'isere'
   'nom': 'Isère'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Grenoble'
   'sources':
@@ -320,7 +281,6 @@
 - 'code': '39'
   'slug': 'jura'
   'nom': 'Jura'
-  'statut': 'metropole'
   'region': '27'
   'prefecture': 'Lons-le-Saunier'
   'sources':
@@ -328,7 +288,6 @@
 - 'code': '40'
   'slug': 'landes'
   'nom': 'Landes'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Mont-de-Marsan'
   'sources':
@@ -336,7 +295,6 @@
 - 'code': '41'
   'slug': 'loir-et-cher'
   'nom': 'Loir-et-Cher'
-  'statut': 'metropole'
   'region': '24'
   'prefecture': 'Blois'
   'sources':
@@ -344,7 +302,6 @@
 - 'code': '42'
   'slug': 'loire'
   'nom': 'Loire'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Saint-Étienne'
   'sources':
@@ -352,7 +309,6 @@
 - 'code': '43'
   'slug': 'haute-loire'
   'nom': 'Haute-Loire'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Le Puy-en-Velay'
   'sources':
@@ -360,7 +316,6 @@
 - 'code': '44'
   'slug': 'loire-atlantique'
   'nom': 'Loire-Atlantique'
-  'statut': 'metropole'
   'region': '52'
   'prefecture': 'Nantes'
   'sources':
@@ -368,7 +323,6 @@
 - 'code': '45'
   'slug': 'loiret'
   'nom': 'Loiret'
-  'statut': 'metropole'
   'region': '24'
   'prefecture': 'Orléans'
   'sources':
@@ -376,7 +330,6 @@
 - 'code': '46'
   'slug': 'lot'
   'nom': 'Lot'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Cahors'
   'sources':
@@ -384,7 +337,6 @@
 - 'code': '47'
   'slug': 'lot-et-garonne'
   'nom': 'Lot-et-Garonne'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Agen'
   'sources':
@@ -392,7 +344,6 @@
 - 'code': '48'
   'slug': 'lozere'
   'nom': 'Lozère'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Mende'
   'sources':
@@ -400,7 +351,6 @@
 - 'code': '49'
   'slug': 'maine-et-loire'
   'nom': 'Maine-et-Loire'
-  'statut': 'metropole'
   'region': '52'
   'prefecture': 'Angers'
   'sources':
@@ -408,7 +358,6 @@
 - 'code': '50'
   'slug': 'manche'
   'nom': 'Manche'
-  'statut': 'metropole'
   'region': '28'
   'prefecture': 'Saint-Lô'
   'sources':
@@ -416,7 +365,6 @@
 - 'code': '51'
   'slug': 'marne'
   'nom': 'Marne'
-  'statut': 'metropole'
   'region': '44'
   'prefecture': 'Châlons-en-Champagne'
   'sources':
@@ -424,7 +372,6 @@
 - 'code': '52'
   'slug': 'haute-marne'
   'nom': 'Haute-Marne'
-  'statut': 'metropole'
   'region': '44'
   'prefecture': 'Chaumont'
   'sources':
@@ -432,7 +379,6 @@
 - 'code': '53'
   'slug': 'mayenne'
   'nom': 'Mayenne'
-  'statut': 'metropole'
   'region': '52'
   'prefecture': 'Laval'
   'sources':
@@ -440,7 +386,6 @@
 - 'code': '54'
   'slug': 'meurthe-et-moselle'
   'nom': 'Meurthe-et-Moselle'
-  'statut': 'metropole'
   'region': '44'
   'prefecture': 'Nancy'
   'sources':
@@ -448,7 +393,6 @@
 - 'code': '55'
   'slug': 'meuse'
   'nom': 'Meuse'
-  'statut': 'metropole'
   'region': '44'
   'prefecture': 'Bar-le-Duc'
   'sources':
@@ -456,7 +400,6 @@
 - 'code': '56'
   'slug': 'morbihan'
   'nom': 'Morbihan'
-  'statut': 'metropole'
   'region': '53'
   'prefecture': 'Vannes'
   'sources':
@@ -464,7 +407,6 @@
 - 'code': '57'
   'slug': 'moselle'
   'nom': 'Moselle'
-  'statut': 'metropole'
   'region': '44'
   'prefecture': 'Metz'
   'sources':
@@ -472,7 +414,6 @@
 - 'code': '58'
   'slug': 'nievre'
   'nom': 'Nièvre'
-  'statut': 'metropole'
   'region': '27'
   'prefecture': 'Nevers'
   'sources':
@@ -480,7 +421,6 @@
 - 'code': '59'
   'slug': 'nord'
   'nom': 'Nord'
-  'statut': 'metropole'
   'region': '32'
   'prefecture': 'Lille'
   'sources':
@@ -488,7 +428,6 @@
 - 'code': '60'
   'slug': 'oise'
   'nom': 'Oise'
-  'statut': 'metropole'
   'region': '32'
   'prefecture': 'Beauvais'
   'sources':
@@ -496,7 +435,6 @@
 - 'code': '61'
   'slug': 'orne'
   'nom': 'Orne'
-  'statut': 'metropole'
   'region': '28'
   'prefecture': 'Alençon'
   'sources':
@@ -504,7 +442,6 @@
 - 'code': '62'
   'slug': 'pas-de-calais'
   'nom': 'Pas-de-Calais'
-  'statut': 'metropole'
   'region': '32'
   'prefecture': 'Arras'
   'sources':
@@ -512,7 +449,6 @@
 - 'code': '63'
   'slug': 'puy-de-dome'
   'nom': 'Puy-de-Dôme'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Clermont-Ferrand'
   'sources':
@@ -520,7 +456,6 @@
 - 'code': '64'
   'slug': 'pyrenees-atlantiques'
   'nom': 'Pyrénées-Atlantiques'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Pau'
   'sources':
@@ -528,7 +463,6 @@
 - 'code': '65'
   'slug': 'hautes-pyrenees'
   'nom': 'Hautes-Pyrénées'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Tarbes'
   'sources':
@@ -536,7 +470,6 @@
 - 'code': '66'
   'slug': 'pyrenees-orientales'
   'nom': 'Pyrénées-Orientales'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Perpignan'
   'sources':
@@ -544,7 +477,6 @@
 - 'code': '67'
   'slug': 'bas-rhin'
   'nom': 'Bas-Rhin'
-  'statut': 'metropole'
   'region': '44'
   'prefecture': 'Strasbourg'
   'sources':
@@ -552,7 +484,6 @@
 - 'code': '68'
   'slug': 'haut-rhin'
   'nom': 'Haut-Rhin'
-  'statut': 'metropole'
   'region': '44'
   'prefecture': 'Colmar'
   'sources':
@@ -560,7 +491,6 @@
 - 'code': '69'
   'slug': 'rhone'
   'nom': 'Rhône'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Lyon'
   'sources':
@@ -568,7 +498,6 @@
 - 'code': '70'
   'slug': 'haute-saone'
   'nom': 'Haute-Saône'
-  'statut': 'metropole'
   'region': '27'
   'prefecture': 'Vesoul'
   'sources':
@@ -576,7 +505,6 @@
 - 'code': '71'
   'slug': 'saone-et-loire'
   'nom': 'Saône-et-Loire'
-  'statut': 'metropole'
   'region': '27'
   'prefecture': 'Mâcon'
   'sources':
@@ -584,7 +512,6 @@
 - 'code': '72'
   'slug': 'sarthe'
   'nom': 'Sarthe'
-  'statut': 'metropole'
   'region': '52'
   'prefecture': 'Le Mans'
   'sources':
@@ -592,7 +519,6 @@
 - 'code': '73'
   'slug': 'savoie'
   'nom': 'Savoie'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Chambéry'
   'sources':
@@ -600,7 +526,6 @@
 - 'code': '74'
   'slug': 'haute-savoie'
   'nom': 'Haute-Savoie'
-  'statut': 'metropole'
   'region': '84'
   'prefecture': 'Annecy'
   'sources':
@@ -608,7 +533,6 @@
 - 'code': '75'
   'slug': 'paris'
   'nom': 'Paris'
-  'statut': 'metropole'
   'region': '11'
   'prefecture': 'Paris'
   'sources':
@@ -616,7 +540,6 @@
 - 'code': '76'
   'slug': 'seine-maritime'
   'nom': 'Seine-Maritime'
-  'statut': 'metropole'
   'region': '28'
   'prefecture': 'Rouen'
   'sources':
@@ -624,7 +547,6 @@
 - 'code': '77'
   'slug': 'seine-et-marne'
   'nom': 'Seine-et-Marne'
-  'statut': 'metropole'
   'region': '11'
   'prefecture': 'Melun'
   'sources':
@@ -632,7 +554,6 @@
 - 'code': '78'
   'slug': 'yvelines'
   'nom': 'Yvelines'
-  'statut': 'metropole'
   'region': '11'
   'prefecture': 'Versailles'
   'sources':
@@ -640,7 +561,6 @@
 - 'code': '79'
   'slug': 'deux-sevres'
   'nom': 'Deux-Sèvres'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Niort'
   'sources':
@@ -648,7 +568,6 @@
 - 'code': '80'
   'slug': 'somme'
   'nom': 'Somme'
-  'statut': 'metropole'
   'region': '32'
   'prefecture': 'Amiens'
   'sources':
@@ -656,7 +575,6 @@
 - 'code': '81'
   'slug': 'tarn'
   'nom': 'Tarn'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Albi'
   'sources':
@@ -664,7 +582,6 @@
 - 'code': '82'
   'slug': 'tarn-et-garonne'
   'nom': 'Tarn-et-Garonne'
-  'statut': 'metropole'
   'region': '76'
   'prefecture': 'Montauban'
   'sources':
@@ -672,7 +589,6 @@
 - 'code': '83'
   'slug': 'var'
   'nom': 'Var'
-  'statut': 'metropole'
   'region': '93'
   'prefecture': 'Toulon'
   'sources':
@@ -680,7 +596,6 @@
 - 'code': '84'
   'slug': 'vaucluse'
   'nom': 'Vaucluse'
-  'statut': 'metropole'
   'region': '93'
   'prefecture': 'Avignon'
   'sources':
@@ -688,7 +603,6 @@
 - 'code': '85'
   'slug': 'vendee'
   'nom': 'Vendée'
-  'statut': 'metropole'
   'region': '52'
   'prefecture': 'La Roche-sur-Yon'
   'sources':
@@ -696,7 +610,6 @@
 - 'code': '86'
   'slug': 'vienne'
   'nom': 'Vienne'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Poitiers'
   'sources':
@@ -704,7 +617,6 @@
 - 'code': '87'
   'slug': 'haute-vienne'
   'nom': 'Haute-Vienne'
-  'statut': 'metropole'
   'region': '75'
   'prefecture': 'Limoges'
   'sources':
@@ -712,7 +624,6 @@
 - 'code': '88'
   'slug': 'vosges'
   'nom': 'Vosges'
-  'statut': 'metropole'
   'region': '44'
   'prefecture': 'Épinal'
   'sources':
@@ -720,7 +631,6 @@
 - 'code': '89'
   'slug': 'yonne'
   'nom': 'Yonne'
-  'statut': 'metropole'
   'region': '27'
   'prefecture': 'Auxerre'
   'sources':
@@ -728,7 +638,6 @@
 - 'code': '90'
   'slug': 'territoire-de-belfort'
   'nom': 'Territoire de Belfort'
-  'statut': 'metropole'
   'region': '27'
   'prefecture': 'Belfort'
   'sources':
@@ -736,7 +645,6 @@
 - 'code': '91'
   'slug': 'essonne'
   'nom': 'Essonne'
-  'statut': 'metropole'
   'region': '11'
   'prefecture': 'Évry-Courcouronnes'
   'sources':
@@ -744,7 +652,6 @@
 - 'code': '92'
   'slug': 'hauts-de-seine'
   'nom': 'Hauts-de-Seine'
-  'statut': 'metropole'
   'region': '11'
   'prefecture': 'Nanterre'
   'sources':
@@ -752,7 +659,6 @@
 - 'code': '93'
   'slug': 'seine-saint-denis'
   'nom': 'Seine-Saint-Denis'
-  'statut': 'metropole'
   'region': '11'
   'prefecture': 'Bobigny'
   'sources':
@@ -760,7 +666,6 @@
 - 'code': '94'
   'slug': 'val-de-marne'
   'nom': 'Val-de-Marne'
-  'statut': 'metropole'
   'region': '11'
   'prefecture': 'Créteil'
   'sources':
@@ -768,7 +673,6 @@
 - 'code': '95'
   'slug': 'val-d-oise'
   'nom': 'Val-d''Oise'
-  'statut': 'metropole'
   'region': '11'
   'prefecture': 'Pontoise'
   'sources':
@@ -776,7 +680,6 @@
 - 'code': '971'
   'slug': 'guadeloupe'
   'nom': 'Guadeloupe'
-  'statut': 'drom'
   'region': '01'
   'prefecture': 'Basse-Terre'
   'sources':
@@ -784,7 +687,6 @@
 - 'code': '972'
   'slug': 'martinique'
   'nom': 'Martinique'
-  'statut': 'drom'
   'region': '02'
   'prefecture': 'Fort-de-France'
   'sources':
@@ -792,7 +694,6 @@
 - 'code': '973'
   'slug': 'guyane'
   'nom': 'Guyane'
-  'statut': 'drom'
   'region': '03'
   'prefecture': 'Cayenne'
   'sources':
@@ -800,7 +701,6 @@
 - 'code': '974'
   'slug': 'la-reunion'
   'nom': 'La Réunion'
-  'statut': 'drom'
   'region': '04'
   'prefecture': 'Saint-Denis'
   'sources':
@@ -808,9 +708,54 @@
 - 'code': '976'
   'slug': 'mayotte'
   'nom': 'Mayotte'
-  'statut': 'drom'
   'region': '06'
   'prefecture': 'Mamoudzou'
+  'sources':
+    '_defaut': 'cog'
+'com':
+- 'code': '975'
+  'slug': 'saint-pierre-et-miquelon'
+  'nom': 'Saint-Pierre-et-Miquelon'
+  'sources':
+    '_defaut': 'cog'
+- 'code': '977'
+  'slug': 'saint-barthelemy'
+  'nom': 'Saint-Barthélemy'
+  'sources':
+    '_defaut': 'cog'
+- 'code': '978'
+  'slug': 'saint-martin'
+  'nom': 'Saint-Martin'
+  'sources':
+    '_defaut': 'cog'
+- 'code': '981'
+  'slug': 'ile-des-faisans'
+  'nom': 'Île des Faisans'
+  'sources':
+    '_defaut': 'cog'
+- 'code': '984'
+  'slug': 'terres-australes-et-antarctiques-francaises'
+  'nom': 'Terres australes et antarctiques françaises'
+  'sources':
+    '_defaut': 'cog'
+- 'code': '986'
+  'slug': 'wallis-et-futuna'
+  'nom': 'Wallis-et-Futuna'
+  'sources':
+    '_defaut': 'cog'
+- 'code': '987'
+  'slug': 'polynesie-francaise'
+  'nom': 'Polynésie française'
+  'sources':
+    '_defaut': 'cog'
+- 'code': '988'
+  'slug': 'nouvelle-caledonie'
+  'nom': 'Nouvelle-Calédonie'
+  'sources':
+    '_defaut': 'cog'
+- 'code': '989'
+  'slug': 'la-passion-clipperton'
+  'nom': 'La Passion-Clipperton'
   'sources':
     '_defaut': 'cog'
 'regions':

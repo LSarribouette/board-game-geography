@@ -1,0 +1,47 @@
+sources:
+  superficie_km2:
+    name: Superficie totale des DROM
+    publisher: INSEE
+    license: Licence Ouverte 2.0
+    vintage: "2023"
+    note: >
+      Séries chronologiques « Superficie totale », une par département,
+      les DROM étant absents du jeu de données communes-france.
+    convention: >
+      Valeurs converties depuis les milliers d'hectares publiés par l'INSEE
+      (1 millier d'hectares = 10 km²).
+
+  population:
+    name: Recensement exhaustif de Mayotte
+    publisher: INSEE
+    url: https://www.insee.fr/fr/information/9022279
+    license: Licence Ouverte 2.0
+    vintage: "2026"
+    note: >
+      Mayotte est absente des populations de référence 2023 : le cycle
+      quinquennal a été interrompu par le cyclone Chido du 14 décembre 2024.
+    convention: >
+      Population au 1er janvier 2026, issue du recensement exhaustif conduit
+      de novembre 2025 à janvier 2026. Ce chiffre n'est pas une population
+      de référence authentifiée par décret, contrairement aux cent autres
+      départements, et porte sur un millésime différent.
+
+population:
+  '976': { valeur: 323153 }
+
+superficie_km2:
+  '971':
+    valeur: 1630
+    url: https://www.insee.fr/fr/statistiques/serie/001751747
+  '972':
+    valeur: 1090
+    url: https://www.insee.fr/fr/statistiques/serie/001751748
+  '973':
+    valeur: 83660
+    url: https://www.insee.fr/fr/statistiques/serie/001751749
+  '974':
+    valeur: 2500
+    url: https://www.insee.fr/fr/statistiques/serie/001751750
+  '976':
+    valeur: 370
+    url: https://www.insee.fr/fr/statistiques/serie/010605946

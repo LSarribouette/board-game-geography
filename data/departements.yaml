@@ -1,1210 +1,1364 @@
 - 'code': '01'
   'slug': 'ain'
   'nom': 'Ain'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Bourg-en-Bresse'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 679344
   'superficie_km2': 5775
+  'statut': 'metropole'
 - 'code': '02'
   'slug': 'aisne'
   'nom': 'Aisne'
-  'statut': 'metropole'
   'region': 'hauts-de-france'
   'prefecture': 'Laon'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 523342
   'superficie_km2': 7428
+  'statut': 'metropole'
 - 'code': '03'
   'slug': 'allier'
   'nom': 'Allier'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Moulins'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 333298
   'superficie_km2': 7360
+  'statut': 'metropole'
 - 'code': '04'
   'slug': 'alpes-de-haute-provence'
   'nom': 'Alpes-de-Haute-Provence'
-  'statut': 'metropole'
   'region': 'provence-alpes-cote-d-azur'
   'prefecture': 'Digne-les-Bains'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 168054
   'superficie_km2': 7002
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'mercantour'
 - 'code': '05'
   'slug': 'hautes-alpes'
   'nom': 'Hautes-Alpes'
-  'statut': 'metropole'
   'region': 'provence-alpes-cote-d-azur'
   'prefecture': 'Gap'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 143467
   'superficie_km2': 5686
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'ecrins'
 - 'code': '06'
   'slug': 'alpes-maritimes'
   'nom': 'Alpes-Maritimes'
-  'statut': 'metropole'
   'region': 'provence-alpes-cote-d-azur'
   'prefecture': 'Nice'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 1128418
   'superficie_km2': 4292
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'mercantour'
 - 'code': '07'
   'slug': 'ardeche'
   'nom': 'Ardèche'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Privas'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 334231
   'superficie_km2': 5564
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'cevennes'
 - 'code': '08'
   'slug': 'ardennes'
   'nom': 'Ardennes'
-  'statut': 'metropole'
   'region': 'grand-est'
   'prefecture': 'Charleville-Mézières'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 265893
   'superficie_km2': 5245
+  'statut': 'metropole'
 - 'code': '09'
   'slug': 'ariege'
   'nom': 'Ariège'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Foix'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 155722
   'superficie_km2': 4924
+  'statut': 'metropole'
 - 'code': '10'
   'slug': 'aube'
   'nom': 'Aube'
-  'statut': 'metropole'
   'region': 'grand-est'
   'prefecture': 'Troyes'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 310447
   'superficie_km2': 6022
+  'statut': 'metropole'
 - 'code': '11'
   'slug': 'aude'
   'nom': 'Aude'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Carcassonne'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 379648
   'superficie_km2': 6368
+  'statut': 'metropole'
 - 'code': '12'
   'slug': 'aveyron'
   'nom': 'Aveyron'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Rodez'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 279609
   'superficie_km2': 8769
+  'statut': 'metropole'
 - 'code': '13'
   'slug': 'bouches-du-rhone'
   'nom': 'Bouches-du-Rhône'
-  'statut': 'metropole'
   'region': 'provence-alpes-cote-d-azur'
   'prefecture': 'Marseille'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 2087658
   'superficie_km2': 5090
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'calanques'
 - 'code': '14'
   'slug': 'calvados'
   'nom': 'Calvados'
-  'statut': 'metropole'
   'region': 'normandie'
   'prefecture': 'Caen'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 709441
   'superficie_km2': 5583
+  'statut': 'metropole'
 - 'code': '15'
   'slug': 'cantal'
   'nom': 'Cantal'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Aurillac'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 144196
   'superficie_km2': 5764
+  'statut': 'metropole'
 - 'code': '16'
   'slug': 'charente'
   'nom': 'Charente'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Angoulême'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 352683
   'superficie_km2': 5955
+  'statut': 'metropole'
 - 'code': '17'
   'slug': 'charente-maritime'
   'nom': 'Charente-Maritime'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'La Rochelle'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 672279
   'superficie_km2': 7047
+  'statut': 'metropole'
 - 'code': '18'
   'slug': 'cher'
   'nom': 'Cher'
-  'statut': 'metropole'
   'region': 'centre-val-de-loire'
   'prefecture': 'Bourges'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 298660
   'superficie_km2': 7300
+  'statut': 'metropole'
 - 'code': '19'
   'slug': 'correze'
   'nom': 'Corrèze'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Tulle'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 240826
   'superficie_km2': 5888
+  'statut': 'metropole'
 - 'code': '21'
   'slug': 'cote-d-or'
   'nom': 'Côte-d''Or'
-  'statut': 'metropole'
   'region': 'bourgogne-franche-comte'
   'prefecture': 'Dijon'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 540100
   'superficie_km2': 8785
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'forets'
 - 'code': '22'
   'slug': 'cotes-d-armor'
   'nom': 'Côtes-d''Armor'
-  'statut': 'metropole'
   'region': 'bretagne'
   'prefecture': 'Saint-Brieuc'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 611859
   'superficie_km2': 6976
+  'statut': 'metropole'
 - 'code': '23'
   'slug': 'creuse'
   'nom': 'Creuse'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Guéret'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 115527
   'superficie_km2': 5594
+  'statut': 'metropole'
 - 'code': '24'
   'slug': 'dordogne'
   'nom': 'Dordogne'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Périgueux'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 417614
   'superficie_km2': 9207
+  'statut': 'metropole'
 - 'code': '25'
   'slug': 'doubs'
   'nom': 'Doubs'
-  'statut': 'metropole'
   'region': 'bourgogne-franche-comte'
   'prefecture': 'Besançon'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 547163
   'superficie_km2': 5241
+  'statut': 'metropole'
 - 'code': '26'
   'slug': 'drome'
   'nom': 'Drôme'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Valence'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 524207
   'superficie_km2': 6552
+  'statut': 'metropole'
 - 'code': '27'
   'slug': 'eure'
   'nom': 'Eure'
-  'statut': 'metropole'
   'region': 'normandie'
   'prefecture': 'Évreux'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 602714
   'superficie_km2': 6029
+  'statut': 'metropole'
 - 'code': '28'
   'slug': 'eure-et-loir'
   'nom': 'Eure-et-Loir'
-  'statut': 'metropole'
   'region': 'centre-val-de-loire'
   'prefecture': 'Chartres'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 433129
   'superficie_km2': 5918
+  'statut': 'metropole'
 - 'code': '29'
   'slug': 'finistere'
   'nom': 'Finistère'
-  'statut': 'metropole'
   'region': 'bretagne'
   'prefecture': 'Quimper'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 933455
   'superficie_km2': 6762
+  'statut': 'metropole'
 - 'code': '2A'
   'slug': 'corse-du-sud'
   'nom': 'Corse-du-Sud'
-  'statut': 'metropole'
   'region': 'corse'
   'prefecture': 'Ajaccio'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 168306
   'superficie_km2': 4036
+  'statut': 'metropole'
 - 'code': '2B'
   'slug': 'haute-corse'
   'nom': 'Haute-Corse'
-  'statut': 'metropole'
   'region': 'corse'
   'prefecture': 'Bastia'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 187180
   'superficie_km2': 4725
+  'statut': 'metropole'
 - 'code': '30'
   'slug': 'gard'
   'nom': 'Gard'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Nîmes'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 770940
   'superficie_km2': 5870
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'cevennes'
 - 'code': '31'
   'slug': 'haute-garonne'
   'nom': 'Haute-Garonne'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Toulouse'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1471468
   'superficie_km2': 6364
+  'statut': 'metropole'
 - 'code': '32'
   'slug': 'gers'
   'nom': 'Gers'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Auch'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 192645
   'superficie_km2': 6307
+  'statut': 'metropole'
 - 'code': '33'
   'slug': 'gironde'
   'nom': 'Gironde'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Bordeaux'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1690493
   'superficie_km2': 10366
+  'statut': 'metropole'
 - 'code': '34'
   'slug': 'herault'
   'nom': 'Hérault'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Montpellier'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1230289
   'superficie_km2': 6236
+  'statut': 'metropole'
 - 'code': '35'
   'slug': 'ille-et-vilaine'
   'nom': 'Ille-et-Vilaine'
-  'statut': 'metropole'
   'region': 'bretagne'
   'prefecture': 'Rennes'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1120666
   'superficie_km2': 6827
+  'statut': 'metropole'
 - 'code': '36'
   'slug': 'indre'
   'nom': 'Indre'
-  'statut': 'metropole'
   'region': 'centre-val-de-loire'
   'prefecture': 'Châteauroux'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 216069
   'superficie_km2': 6887
+  'statut': 'metropole'
 - 'code': '37'
   'slug': 'indre-et-loire'
   'nom': 'Indre-et-Loire'
-  'statut': 'metropole'
   'region': 'centre-val-de-loire'
   'prefecture': 'Tours'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 619362
   'superficie_km2': 6151
+  'statut': 'metropole'
 - 'code': '38'
   'slug': 'isere'
   'nom': 'Isère'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Grenoble'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 1298990
   'superficie_km2': 7866
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'ecrins'
 - 'code': '39'
   'slug': 'jura'
   'nom': 'Jura'
-  'statut': 'metropole'
   'region': 'bourgogne-franche-comte'
   'prefecture': 'Lons-le-Saunier'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 257973
   'superficie_km2': 5038
+  'statut': 'metropole'
 - 'code': '40'
   'slug': 'landes'
   'nom': 'Landes'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Mont-de-Marsan'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 433570
   'superficie_km2': 9367
+  'statut': 'metropole'
 - 'code': '41'
   'slug': 'loir-et-cher'
   'nom': 'Loir-et-Cher'
-  'statut': 'metropole'
   'region': 'centre-val-de-loire'
   'prefecture': 'Blois'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 328543
   'superficie_km2': 6411
+  'statut': 'metropole'
 - 'code': '42'
   'slug': 'loire'
   'nom': 'Loire'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Saint-Étienne'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 774133
   'superficie_km2': 4798
+  'statut': 'metropole'
 - 'code': '43'
   'slug': 'haute-loire'
   'nom': 'Haute-Loire'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Le Puy-en-Velay'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 228654
   'superficie_km2': 5001
+  'statut': 'metropole'
 - 'code': '44'
   'slug': 'loire-atlantique'
   'nom': 'Loire-Atlantique'
-  'statut': 'metropole'
   'region': 'pays-de-la-loire'
   'prefecture': 'Nantes'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1487570
   'superficie_km2': 6995
+  'statut': 'metropole'
 - 'code': '45'
   'slug': 'loiret'
   'nom': 'Loiret'
-  'statut': 'metropole'
   'region': 'centre-val-de-loire'
   'prefecture': 'Orléans'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 691268
   'superficie_km2': 6801
+  'statut': 'metropole'
 - 'code': '46'
   'slug': 'lot'
   'nom': 'Lot'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Cahors'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 176473
   'superficie_km2': 5225
+  'statut': 'metropole'
 - 'code': '47'
   'slug': 'lot-et-garonne'
   'nom': 'Lot-et-Garonne'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Agen'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 333602
   'superficie_km2': 5379
+  'statut': 'metropole'
 - 'code': '48'
   'slug': 'lozere'
   'nom': 'Lozère'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Mende'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 76486
   'superficie_km2': 5177
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'cevennes'
 - 'code': '49'
   'slug': 'maine-et-loire'
   'nom': 'Maine-et-Loire'
-  'statut': 'metropole'
   'region': 'pays-de-la-loire'
   'prefecture': 'Angers'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 833776
   'superficie_km2': 7163
+  'statut': 'metropole'
 - 'code': '50'
   'slug': 'manche'
   'nom': 'Manche'
-  'statut': 'metropole'
   'region': 'normandie'
   'prefecture': 'Saint-Lô'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 497522
   'superficie_km2': 6010
+  'statut': 'metropole'
 - 'code': '51'
   'slug': 'marne'
   'nom': 'Marne'
-  'statut': 'metropole'
   'region': 'grand-est'
   'prefecture': 'Châlons-en-Champagne'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 563076
   'superficie_km2': 8190
+  'statut': 'metropole'
 - 'code': '52'
   'slug': 'haute-marne'
   'nom': 'Haute-Marne'
-  'statut': 'metropole'
   'region': 'grand-est'
   'prefecture': 'Chaumont'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 168331
   'superficie_km2': 6247
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'forets'
 - 'code': '53'
   'slug': 'mayenne'
   'nom': 'Mayenne'
-  'statut': 'metropole'
   'region': 'pays-de-la-loire'
   'prefecture': 'Laval'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 305468
   'superficie_km2': 5207
+  'statut': 'metropole'
 - 'code': '54'
   'slug': 'meurthe-et-moselle'
   'nom': 'Meurthe-et-Moselle'
-  'statut': 'metropole'
   'region': 'grand-est'
   'prefecture': 'Nancy'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 732236
   'superficie_km2': 5267
+  'statut': 'metropole'
 - 'code': '55'
   'slug': 'meuse'
   'nom': 'Meuse'
-  'statut': 'metropole'
   'region': 'grand-est'
   'prefecture': 'Bar-le-Duc'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 180290
   'superficie_km2': 6221
+  'statut': 'metropole'
 - 'code': '56'
   'slug': 'morbihan'
   'nom': 'Morbihan'
-  'statut': 'metropole'
   'region': 'bretagne'
   'prefecture': 'Vannes'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 783390
   'superficie_km2': 6869
+  'statut': 'metropole'
 - 'code': '57'
   'slug': 'moselle'
   'nom': 'Moselle'
-  'statut': 'metropole'
   'region': 'grand-est'
   'prefecture': 'Metz'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1051309
   'superficie_km2': 6264
+  'statut': 'metropole'
 - 'code': '58'
   'slug': 'nievre'
   'nom': 'Nièvre'
-  'statut': 'metropole'
   'region': 'bourgogne-franche-comte'
   'prefecture': 'Nevers'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 201417
   'superficie_km2': 6877
+  'statut': 'metropole'
 - 'code': '59'
   'slug': 'nord'
   'nom': 'Nord'
-  'statut': 'metropole'
   'region': 'hauts-de-france'
   'prefecture': 'Lille'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 2615635
   'superficie_km2': 5771
+  'statut': 'metropole'
 - 'code': '60'
   'slug': 'oise'
   'nom': 'Oise'
-  'statut': 'metropole'
   'region': 'hauts-de-france'
   'prefecture': 'Beauvais'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 829899
   'superficie_km2': 5898
+  'statut': 'metropole'
 - 'code': '61'
   'slug': 'orne'
   'nom': 'Orne'
-  'statut': 'metropole'
   'region': 'normandie'
   'prefecture': 'Alençon'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 275201
   'superficie_km2': 6137
+  'statut': 'metropole'
 - 'code': '62'
   'slug': 'pas-de-calais'
   'nom': 'Pas-de-Calais'
-  'statut': 'metropole'
   'region': 'hauts-de-france'
   'prefecture': 'Arras'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1457905
   'superficie_km2': 6704
+  'statut': 'metropole'
 - 'code': '63'
   'slug': 'puy-de-dome'
   'nom': 'Puy-de-Dôme'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Clermont-Ferrand'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 664453
   'superficie_km2': 8010
+  'statut': 'metropole'
 - 'code': '64'
   'slug': 'pyrenees-atlantiques'
   'nom': 'Pyrénées-Atlantiques'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Pau'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 706564
   'superficie_km2': 7686
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'pyrenees'
 - 'code': '65'
   'slug': 'hautes-pyrenees'
   'nom': 'Hautes-Pyrénées'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Tarbes'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 231349
   'superficie_km2': 4525
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'pyrenees'
 - 'code': '66'
   'slug': 'pyrenees-orientales'
   'nom': 'Pyrénées-Orientales'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Perpignan'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 496855
   'superficie_km2': 4145
+  'statut': 'metropole'
 - 'code': '67'
   'slug': 'bas-rhin'
   'nom': 'Bas-Rhin'
-  'statut': 'metropole'
   'region': 'grand-est'
   'prefecture': 'Strasbourg'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1163810
   'superficie_km2': 4776
+  'statut': 'metropole'
 - 'code': '68'
   'slug': 'haut-rhin'
   'nom': 'Haut-Rhin'
-  'statut': 'metropole'
   'region': 'grand-est'
   'prefecture': 'Colmar'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 770738
   'superficie_km2': 3519
+  'statut': 'metropole'
 - 'code': '69'
   'slug': 'rhone'
   'nom': 'Rhône'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Lyon'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1914667
   'superficie_km2': 3256
+  'statut': 'metropole'
 - 'code': '70'
   'slug': 'haute-saone'
   'nom': 'Haute-Saône'
-  'statut': 'metropole'
   'region': 'bourgogne-franche-comte'
   'prefecture': 'Vesoul'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 233185
   'superficie_km2': 5377
+  'statut': 'metropole'
 - 'code': '71'
   'slug': 'saone-et-loire'
   'nom': 'Saône-et-Loire'
-  'statut': 'metropole'
   'region': 'bourgogne-franche-comte'
   'prefecture': 'Mâcon'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 550310
   'superficie_km2': 8601
+  'statut': 'metropole'
 - 'code': '72'
   'slug': 'sarthe'
   'nom': 'Sarthe'
-  'statut': 'metropole'
   'region': 'pays-de-la-loire'
   'prefecture': 'Le Mans'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 566733
   'superficie_km2': 6236
+  'statut': 'metropole'
 - 'code': '73'
   'slug': 'savoie'
   'nom': 'Savoie'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Chambéry'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 448226
   'superficie_km2': 6255
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'vanoise'
 - 'code': '74'
   'slug': 'haute-savoie'
   'nom': 'Haute-Savoie'
-  'statut': 'metropole'
   'region': 'auvergne-rhone-alpes'
   'prefecture': 'Annecy'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 861158
   'superficie_km2': 4594
+  'statut': 'metropole'
 - 'code': '75'
   'slug': 'paris'
   'nom': 'Paris'
-  'statut': 'metropole'
   'region': 'ile-de-france'
   'prefecture': 'Paris'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 2103778
   'superficie_km2': 105
+  'statut': 'metropole'
 - 'code': '76'
   'slug': 'seine-maritime'
   'nom': 'Seine-Maritime'
-  'statut': 'metropole'
   'region': 'normandie'
   'prefecture': 'Rouen'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1260964
   'superficie_km2': 6310
+  'statut': 'metropole'
 - 'code': '77'
   'slug': 'seine-et-marne'
   'nom': 'Seine-et-Marne'
-  'statut': 'metropole'
   'region': 'ile-de-france'
   'prefecture': 'Melun'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1468108
   'superficie_km2': 5915
+  'statut': 'metropole'
 - 'code': '78'
   'slug': 'yvelines'
   'nom': 'Yvelines'
-  'statut': 'metropole'
   'region': 'ile-de-france'
   'prefecture': 'Versailles'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1485086
   'superficie_km2': 2301
+  'statut': 'metropole'
 - 'code': '79'
   'slug': 'deux-sevres'
   'nom': 'Deux-Sèvres'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Niort'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 375229
   'superficie_km2': 6025
+  'statut': 'metropole'
 - 'code': '80'
   'slug': 'somme'
   'nom': 'Somme'
-  'statut': 'metropole'
   'region': 'hauts-de-france'
   'prefecture': 'Amiens'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 565413
   'superficie_km2': 6204
+  'statut': 'metropole'
 - 'code': '81'
   'slug': 'tarn'
   'nom': 'Tarn'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Albi'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 397352
   'superficie_km2': 5784
+  'statut': 'metropole'
 - 'code': '82'
   'slug': 'tarn-et-garonne'
   'nom': 'Tarn-et-Garonne'
-  'statut': 'metropole'
   'region': 'occitanie'
   'prefecture': 'Montauban'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 265817
   'superficie_km2': 3726
+  'statut': 'metropole'
 - 'code': '83'
   'slug': 'var'
   'nom': 'Var'
-  'statut': 'metropole'
   'region': 'provence-alpes-cote-d-azur'
   'prefecture': 'Toulon'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 1119307
   'superficie_km2': 6036
+  'statut': 'metropole'
+  'parcs_nationaux':
+  - 'port-cros'
 - 'code': '84'
   'slug': 'vaucluse'
   'nom': 'Vaucluse'
-  'statut': 'metropole'
   'region': 'provence-alpes-cote-d-azur'
   'prefecture': 'Avignon'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 572056
   'superficie_km2': 3581
+  'statut': 'metropole'
 - 'code': '85'
   'slug': 'vendee'
   'nom': 'Vendée'
-  'statut': 'metropole'
   'region': 'pays-de-la-loire'
   'prefecture': 'La Roche-sur-Yon'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 713609
   'superficie_km2': 6758
+  'statut': 'metropole'
 - 'code': '86'
   'slug': 'vienne'
   'nom': 'Vienne'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Poitiers'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 438897
   'superficie_km2': 7022
+  'statut': 'metropole'
 - 'code': '87'
   'slug': 'haute-vienne'
   'nom': 'Haute-Vienne'
-  'statut': 'metropole'
   'region': 'nouvelle-aquitaine'
   'prefecture': 'Limoges'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 373167
   'superficie_km2': 5547
+  'statut': 'metropole'
 - 'code': '88'
   'slug': 'vosges'
   'nom': 'Vosges'
-  'statut': 'metropole'
   'region': 'grand-est'
   'prefecture': 'Épinal'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 357248
   'superficie_km2': 5898
+  'statut': 'metropole'
 - 'code': '89'
   'slug': 'yonne'
   'nom': 'Yonne'
-  'statut': 'metropole'
   'region': 'bourgogne-franche-comte'
   'prefecture': 'Auxerre'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 332267
   'superficie_km2': 7460
+  'statut': 'metropole'
 - 'code': '90'
   'slug': 'territoire-de-belfort'
   'nom': 'Territoire de Belfort'
-  'statut': 'metropole'
   'region': 'bourgogne-franche-comte'
   'prefecture': 'Belfort'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 140255
   'superficie_km2': 615
+  'statut': 'metropole'
 - 'code': '91'
   'slug': 'essonne'
   'nom': 'Essonne'
-  'statut': 'metropole'
   'region': 'ile-de-france'
   'prefecture': 'Évry-Courcouronnes'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1338485
   'superficie_km2': 1821
+  'statut': 'metropole'
 - 'code': '92'
   'slug': 'hauts-de-seine'
   'nom': 'Hauts-de-Seine'
-  'statut': 'metropole'
   'region': 'ile-de-france'
   'prefecture': 'Nanterre'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1654712
   'superficie_km2': 178
+  'statut': 'metropole'
 - 'code': '93'
   'slug': 'seine-saint-denis'
   'nom': 'Seine-Saint-Denis'
-  'statut': 'metropole'
   'region': 'ile-de-france'
   'prefecture': 'Bobigny'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1704316
   'superficie_km2': 236
+  'statut': 'metropole'
 - 'code': '94'
   'slug': 'val-de-marne'
   'nom': 'Val-de-Marne'
-  'statut': 'metropole'
   'region': 'ile-de-france'
   'prefecture': 'Créteil'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1426929
   'superficie_km2': 241
+  'statut': 'metropole'
 - 'code': '95'
   'slug': 'val-d-oise'
   'nom': 'Val-d''Oise'
-  'statut': 'metropole'
   'region': 'ile-de-france'
   'prefecture': 'Pontoise'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'communes-france'
+    'statut': 'statuts'
   'population': 1281653
   'superficie_km2': 1255
+  'statut': 'metropole'
 - 'code': '971'
   'slug': 'guadeloupe'
   'nom': 'Guadeloupe'
-  'statut': 'drom'
   'region': 'guadeloupe'
   'prefecture': 'Basse-Terre'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'insee-superficie'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 384160
-  'superficie_km2': 1634
+  'superficie_km2': 1630
+  'statut': 'drom'
+  'parcs_nationaux':
+  - 'guadeloupe'
 - 'code': '972'
   'slug': 'martinique'
   'nom': 'Martinique'
-  'statut': 'drom'
   'region': 'martinique'
   'prefecture': 'Fort-de-France'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'insee-superficie'
+    'statut': 'statuts'
   'population': 360630
-  'superficie_km2': 1087
+  'superficie_km2': 1090
+  'statut': 'drom'
 - 'code': '973'
   'slug': 'guyane'
   'nom': 'Guyane'
-  'statut': 'drom'
   'region': 'guyane'
   'prefecture': 'Cayenne'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'insee-superficie'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 293996
-  'superficie_km2': 83657
+  'superficie_km2': 83660
+  'statut': 'drom'
+  'parcs_nationaux':
+  - 'guyane'
 - 'code': '974'
   'slug': 'la-reunion'
   'nom': 'La Réunion'
-  'statut': 'drom'
   'region': 'la-reunion'
   'prefecture': 'Saint-Denis'
   'sources':
     '_defaut': 'cog'
     'population': 'insee-pop'
     'superficie_km2': 'insee-superficie'
+    'statut': 'statuts'
+    'parcs_nationaux': 'elements'
   'population': 889679
-  'superficie_km2': 2503
+  'superficie_km2': 2500
+  'statut': 'drom'
+  'parcs_nationaux':
+  - 'reunion'
 - 'code': '976'
   'slug': 'mayotte'
   'nom': 'Mayotte'
-  'statut': 'drom'
   'region': 'mayotte'
   'prefecture': 'Mamoudzou'
   'sources':
     '_defaut': 'cog'
     'superficie_km2': 'insee-superficie'
-  'superficie_km2': 366
+    'population': 'insee-mayotte'
+    'statut': 'statuts'
+  'superficie_km2': 370
+  'population': 323153
+  'statut': 'drom'

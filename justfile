@@ -24,9 +24,11 @@ build:
 
 # Compile cards to print/
 print:
-    typst compile --root . src/cards/departments.typ print/cards-departments.pdf
-    typst compile --root . src/cards/regions.typ     print/cards-regions.pdf
+    typst compile --root . src/cards/departments.typ           print/cards-departments.pdf
+    typst compile --root . src/cards/com.typ                   print/cards-com.pdf
+    typst compile --root . src/cards/challenges-france.typ     print/cards-challenges-france.pdf
+    typst compile --root . src/cards/challenges-regions.typ    print/cards-challenges-regions.pdf
 
-# Recompile a deck on change (deck: departments | regions)
+# Recompile a deck on change (deck: departments | com)
 watch deck:
     typst watch --root . src/cards/{{deck}}.typ print/cards-{{deck}}.pdf

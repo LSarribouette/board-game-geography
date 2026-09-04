@@ -25,7 +25,6 @@ INPUT = Path("data/downloads/area/communes-france.csv")
 OUTPUT = Path("data/raw/area.yaml")
 
 DEPARTMENT_CODE = "dep_code"
-# AREA = "superficie_cartographique_ign_km2"
 AREA = "superficie_km2"
 COMMUNE_TYPE = "typecom"
 

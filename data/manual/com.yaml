@@ -1,0 +1,140 @@
+sources:
+  population:
+    name: Populations des collectivités d'outre-mer
+    publisher: INSEE et instituts statistiques locaux
+    url: https://www.insee.fr/fr/statistiques/8680667
+    license: Licence Ouverte 2.0
+    vintage: "2023"
+    note: >
+      Saint-Barthélemy, Saint-Martin et Saint-Pierre-et-Miquelon relèvent du
+      recensement rénové et sont recensées annuellement par l'INSEE : leurs
+      chiffres proviennent de la page ci-dessus. La Nouvelle-Calédonie, la
+      Polynésie française et Wallis-et-Futuna procèdent par dérogation à des
+      recensements généraux tous les cinq ans, exploités par leur institut
+      statistique local ; leurs URL sont indiquées entrée par entrée et les
+      millésimes diffèrent : 2025 pour la Nouvelle-Calédonie, 2023 pour
+      Wallis-et-Futuna, 2022 pour la Polynésie française.
+    convention: >
+      Les Terres australes et antarctiques françaises et l'île de La
+      Passion-Clipperton sont inhabitées : population fixée à zéro. Seuls des
+      personnels scientifiques et militaires séjournent temporairement dans
+      les TAAF.
+
+  superficie_km2:
+    name: Superficies des collectivités d'outre-mer
+    publisher: Ministère des Outre-mer et instituts statistiques locaux
+    license: Licence Ouverte 2.0
+    note: >
+      Aucune source ne publie de superficies consolidées pour les
+      collectivités d'outre-mer : chaque valeur porte sa propre URL.
+    convention: >
+      Il s'agit de terres émergées, et non de zones économiques exclusives.
+      La superficie de la Polynésie française est celle publiée par l'ISPF,
+      institut statistique compétent ; la valeur de 4 167 km², plus largement
+      diffusée, n'est pas retenue.
+      La superficie de Wallis-et-Futuna est la somme des trois îles publiées
+      par le ministère de l'Enseignement supérieur : Wallis 75,64 km²,
+      Futuna 46,28 km², Alofi 17,78 km². La valeur de 142 km², couramment
+      citée, n'a pas de source officielle identifiée.
+      La superficie des TAAF est la somme des îles hors Terre Adélie :
+      Kerguelen 7 215 km², Crozet 340 km², Amsterdam 53 km², îles Éparses
+      43 km² (taaf.fr), Saint-Paul 8 km² (blog officiel du district). La
+      Terre Adélie, 432 000 km², est exclue : la souveraineté française y est
+      gelée par le traité sur l'Antarctique de 1959. Avec elle, le total
+      serait de 439 672 km².
+  
+  chef_lieu:
+    name: Codification des collectivités et territoires français d'outre-mer
+    publisher: INSEE
+    url: https://www.insee.fr/fr/information/7929495
+    license: Licence Ouverte 2.0
+    vintage: "2025"
+    convention: >
+      Les collectivités d'outre-mer n'ont pas de préfecture au sens des
+      départements : elles ont un chef-lieu, et le représentant de l'État y
+      porte des titres variés — préfet à Saint-Pierre-et-Miquelon, préfet
+      délégué à Saint-Barthélemy et Saint-Martin, haut-commissaire en
+      Nouvelle-Calédonie et en Polynésie française, administrateur supérieur
+      à Wallis-et-Futuna.
+      Quatre chef-lieux sont fixés par un texte : Saint-Pierre, Gustavia
+      (article D.6211-1 du CGCT), Marigot (article D.6311-1 du CGCT) et
+      Mata-Utu (décret du 14 décembre 1999).
+      Pour les Terres australes et antarctiques françaises, la Polynésie
+      française et la Nouvelle-Calédonie, aucun texte ne fixe de chef-lieu :
+      la valeur retenue est le siège de l'administration ou du
+      haut-commissariat, et la carte l'indique comme tel. Celui des TAAF est
+      situé hors du territoire administré, à Saint-Pierre de La Réunion,
+      depuis le 1er avril 2000 (arrêté du 20 mars 2000).
+      L'île de La Passion-Clipperton, placée sous l'autorité directe du
+      Gouvernement, et l'île des Faisans, condominium franco-espagnol, n'ont
+      ni chef-lieu ni siège.
+      La page source écrit « loi n° 55-1072 » pour les TAAF et
+      « loi n° 55-1052 » pour Clipperton : c'est le même texte, et Légifrance
+      confirme 55-1052.
+
+chef_lieu:
+  '975': { valeur: Saint-Pierre }
+  '977': { valeur: Gustavia }
+  '978': { valeur: Marigot }
+  '984': { valeur: Saint-Pierre de La Réunion }
+  '986': { valeur: Mata-Utu }
+  '987':
+    valeur: Papeete
+    url: https://www.polynesie-francaise.pref.gouv.fr/Services-de-l-Etat/Le-Haut-Commissariat/Horaires-et-coordonnees
+  '988':
+    valeur: Nouméa
+    url: https://lannuaire.service-public.gouv.fr/collectivites-d-outre-mer/nouvelle-caledonie/a6570311-274c-4d02-a644-f20a7217b815
+
+chef_lieu_type:
+  '984': { valeur: siege }
+  '987': { valeur: siege }
+  '988': { valeur: siege }
+
+population:
+  '975': { valeur: 5790 }
+  '977': { valeur: 10660 }
+  '978': { valeur: 31160 }
+  '984': 
+    valeur: 0
+    url: https://www.insee.fr/fr/statistiques/1289480
+  '981': 
+    valeur: 0
+    url: https://www.insee.fr/fr/information/7929495
+  '986':
+    valeur: 11151
+    url: https://www.statistique.wf/recensements-et-enquetes/recensement-general-de-la-population/
+  '987':
+    valeur: 278786
+    url: https://www.ispf.pf/publication/1396
+  '988':
+    valeur: 264596
+    url: https://isee.nc/population-recensee
+  '989': 
+    valeur: 0
+    url: https://www.insee.fr/fr/information/7929495
+
+superficie_km2:
+  '975':
+    valeur: 242
+    url: https://www.outre-mer.gouv.fr/territoires/saint-pierre-et-miquelon
+  '977':
+    valeur: 21
+    url: https://www.outre-mer.gouv.fr/territoires/saint-barthelemy
+  '978':
+    valeur: 53
+    url: https://www.outre-mer.gouv.fr/territoires/saint-martin
+  '984':
+    valeur: 7659
+    url: https://taaf.fr/collectivites/presentation-des-territoires/les-iles-australes/
+  '986':
+    valeur: 140
+    url: https://www.enseignementsup-recherche.gouv.fr/fr/dtrt-nouvelle-caledonie-iles-wallis-et-futuna-50270
+  '987':
+    valeur: 3793
+    url: https://www.ispf.pf/fiche-geo
+  '988':
+    valeur: 18576
+    url: https://www.enseignementsup-recherche.gouv.fr/fr/dtrt-nouvelle-caledonie-iles-wallis-et-futuna-50270
+  '989':
+    valeur: 2
+    url: https://www.outre-mer.gouv.fr/territoires/ile-de-la-passion-clipperton

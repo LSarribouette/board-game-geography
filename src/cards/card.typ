@@ -17,21 +17,59 @@
   #set text(size: 8pt)
   #list(
     [Préfecture : #dept.prefecture],
-    ..if "population" in dept {
-      ([Population : #format-number(dept.population) habitants],)
-    } else { () },
-    ..if "superficie_km2" in dept {
-      ([Superficie : #format-number(dept.superficie_km2) km#super[2]],)
-    } else { () },
+    [Population : #format-number(dept.population) habitants],
+    [Superficie : #format-number(dept.superficie_km2) km#super[2]],
   )
+  #scale-marker(scale-labels.departement)
 ]
 
-#let region-card(region) = block(
+#let com-card(com, statut-name) = block(
+  width: card-width,
+  height: card-height,
+  stroke: cut-line,
+  inset: 5mm,
+)[
+  #set align(center)
+  #text(size: 15pt, weight: "bold")[#com.code #com.nom]
+  #v(1mm)
+  #text(size: 9pt, fill: muted)[#statut-name]
+  #v(4mm)
+  #set align(left)
+  #set text(size: 8pt)
+  #list(
+    ..if "chef_lieu" in com {
+      let label = if com.at("chef_lieu_type", default: none) == "siege" {
+        "Siège"
+      } else {
+        "Chef-lieu"
+      }
+      ([#label : #com.chef_lieu],)
+    } else { () },
+    ..if "population" in com {
+      if com.population == 0 {
+        ([Population : inhabitée],)
+      } else {
+        ([Population : #format-number(com.population) habitants],)
+      }
+    } else { () },
+    ..if "superficie_km2" in com {
+      ([Superficie : #format-number(com.superficie_km2) km#super[2]],)
+    } else { () },
+  )
+  #scale-marker(scale-labels.com)
+]
+
+#let challenge-card(challenge) = block(
   width: card-width,
   height: card-height,
   stroke: cut-line,
   inset: 5mm,
 )[
   #set align(center + horizon)
-  #text(size: 16pt, weight: "bold")[#region.nom]
+  #if challenge.titre != none [
+    #text(size: 16pt, weight: "bold")[#challenge.titre]
+    #v(3mm)
+  ]
+  #text(size: 11pt)[#challenge.consigne]
+  #scale-marker(scale-labels.at(challenge.echelle, default: challenge.echelle))
 ]

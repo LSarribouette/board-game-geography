@@ -1,0 +1,103 @@
+# --- Régions ---
+
+- id: region-numeros
+  echelle: region
+  type: ecrire
+  sur: regions
+  consigne: Les numéros des départements.
+
+- id: region-noms
+  echelle: region
+  type: ecrire
+  sur: regions
+  consigne: Les noms des départements.
+
+- id: region-prefectures
+  echelle: region
+  type: ecrire
+  sur: regions
+  consigne: Les préfectures des départements.
+
+- id: region-cours-eau
+  echelle: region
+  type: ecrire
+  sur: regions
+  consigne: Les fleuves et rivières.
+
+- id: region-massifs
+  echelle: region
+  type: ecrire
+  sur: regions
+  consigne: Le ou les massifs.
+
+- id: region-facades
+  echelle: region
+  type: ecrire
+  sur: regions
+  consigne: La ou les mers et océans.
+
+- id: region-sommet
+  echelle: region
+  type: ecrire
+  sur: regions
+  consigne: Le sommet le plus haut.
+
+# --- France ---
+
+- id: france-cours-eau-tous
+  echelle: france
+  type: ecrire
+  sur: null
+  titre: Cours d'eau
+  consigne: Dessinez et nommez les 17 fleuves et rivières principaux.
+
+- id: france-cours-eau
+  echelle: france
+  type: ecrire
+  sur: cours_eau
+  consigne: Dessinez le cours d'eau, puis placez et nommez les départements traversés.
+
+- id: france-massifs-tous
+  echelle: france
+  type: ecrire
+  sur: null
+  titre: Massifs
+  consigne: Dessinez et nommez les 8 massifs.
+
+- id: france-massif
+  echelle: france
+  type: ecrire
+  sur: massifs
+  consigne: Dessinez le massif, puis placez et nommez les départements concernés.
+
+- id: france-facade
+  echelle: france
+  type: ecrire
+  sur: facades_maritimes
+  consigne: Placez et nommez les départements bordant cette mer ou cet océan.
+
+- id: france-parcs
+  echelle: france
+  type: ecrire
+  sur: null
+  titre: Parcs nationaux
+  consigne: Placez et nommez les 11 parcs nationaux avec leur département.
+
+- id: france-pays-tous
+  echelle: france
+  type: ecrire
+  sur: null
+  titre: Pays frontaliers
+  consigne: Placez et nommez les 11 pays frontaliers.
+
+- id: france-pays
+  echelle: france
+  type: ecrire
+  sur: pays
+  consigne: Placez et nommez les départements frontaliers de ce pays.
+
+- id: france-langue
+  echelle: france
+  type: ecrire
+  sur: langues
+  consigne: Placez et nommez les départements où cette langue est parlée.

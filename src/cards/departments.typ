@@ -9,5 +9,5 @@
 
 #deck(departments.map(d => department-card(
   d,
-  region-names.at(d.region, default: "—"),
+  if d.region == none { "—" } else { region-names.at(d.region, default: "—") },
 )))
