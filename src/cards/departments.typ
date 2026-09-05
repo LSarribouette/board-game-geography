@@ -3,8 +3,8 @@
 #import "sheet.typ": deck
 #import "card.typ": department-card
 
-#let departments = yaml("/data/departements.yaml")
-#let regions = yaml("/data/regions.yaml")
+#let departments = yaml("/data/cards/departements.yaml")
+#let regions = yaml("/data/cards/regions.yaml")
 #let region-names = regions.fold((:), (acc, r) => acc + ((r.slug): r.nom))
 
 #deck(departments.map(d => department-card(

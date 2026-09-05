@@ -10,9 +10,9 @@ from pathlib import Path
 from challenges import build_challenges
 from yaml_io import read_yaml, write_yaml
 
-RAW_DIR = Path("data/raw")
-MANUAL_DIR = Path("data/manual")
-DATA_DIR = Path("data")
+RAW_DIR = Path("data/cards/raw")
+MANUAL_DIR = Path("data/cards/manual")
+DATA_DIR = Path("data/cards")
 CREDITS = Path("CREDITS.md")
 
 

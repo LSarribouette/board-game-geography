@@ -4,6 +4,6 @@
 #import "card.typ": challenge-card
 
 #let challenge-deck(scale) = {
-  let challenges = yaml("/data/challenges.yaml")
+  let challenges = yaml("/data/cards/challenges.yaml")
   deck(challenges.filter(c => c.echelle == scale).map(challenge-card))
 }

@@ -22,7 +22,7 @@ SOURCE_META = {
 }
 
 INPUT = Path("data/downloads/area/communes-france.csv")
-OUTPUT = Path("data/raw/area.yaml")
+OUTPUT = Path("data/cards/raw/area.yaml")
 
 DEPARTMENT_CODE = "dep_code"
 AREA = "superficie_km2"

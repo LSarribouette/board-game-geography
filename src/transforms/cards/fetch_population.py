@@ -22,7 +22,7 @@ SOURCE_META = {
 }
 
 INPUT_DIR = Path("data/downloads/population")
-OUTPUT = Path("data/raw/population.yaml")
+OUTPUT = Path("data/cards/raw/population.yaml")
 
 DEPARTMENT_CODE = "DEP"
 POPULATION = "PMUN"

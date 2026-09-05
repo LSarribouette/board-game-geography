@@ -21,7 +21,7 @@ SOURCE_META = {
 }
 
 INPUT_DIR = Path("data/downloads/cog")
-OUTPUT = Path("data/raw/cog.yaml")
+OUTPUT = Path("data/cards/raw/cog.yaml")
 
 DEPARTMENT_FILE = "v_departement_2026.csv"
 REGION_FILE = "v_region_2026.csv"

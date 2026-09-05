@@ -3,8 +3,8 @@
 #import "sheet.typ": deck
 #import "card.typ": com-card
 
-#let com = yaml("/data/com.yaml")
-#let statuts = yaml("/data/statuts.yaml")
+#let com = yaml("/data/cards/com.yaml")
+#let statuts = yaml("/data/cards/statuts.yaml")
 
 #deck(com.map(c => com-card(
   c,

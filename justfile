@@ -17,10 +17,10 @@ download:
 
 # Build raw data and merge it in data/ 
 build:
-    uv run src/transforms/fetch_cog.py
-    uv run src/transforms/fetch_population.py
-    uv run src/transforms/fetch_area.py
-    uv run src/transforms/merge.py
+    uv run src/transforms/cards/fetch_cog.py
+    uv run src/transforms/cards/fetch_population.py
+    uv run src/transforms/cards/fetch_area.py
+    uv run src/transforms/cards/merge.py
 
 # Compile cards to print/
 print:

@@ -33,7 +33,9 @@ Produit les 101 départements, les 9 collectivités et les 18 régions.
 > Les fichiers de `data/downloads/` et `data/raw/` sont générés : ne pas les
 > éditer. Les données saisies à la main vivent dans `data/manual/`.
 
-## 3. Générer les cartes
+## 3. Construire les cartes spatiales
+
+## 4. Générer les cartes
 
 ```bash
 just print
