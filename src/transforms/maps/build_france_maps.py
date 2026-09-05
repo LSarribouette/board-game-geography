@@ -8,8 +8,8 @@ from shapely.affinity import scale, translate
 
 BASE_URL = "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master"
 SOURCES = {
-    "departements": f"{BASE_URL}/departements.geojson",
-    "regions": f"{BASE_URL}/regions.geojson",
+    "departements": f"{BASE_URL}/departements-avec-outre-mer.geojson",
+    "regions": f"{BASE_URL}/regions-avec-outre-mer.geojson",
 }
 
 PLATES = [
@@ -118,7 +118,10 @@ def flatten(gdf):
 
 def drom_inset(gdf, name, crs, box):
     """Project one overseas territory in its local CRS, then fit it into its box."""
-    inset = fit_into_box(flatten(gdf[gdf["nom"] == name].to_crs(crs)), box)
+    territory = gdf[gdf["nom"] == name]
+    if territory.empty:
+        raise ValueError(f"{name!r} not found in source layer -- check the source URL or spelling")
+    inset = fit_into_box(flatten(territory.to_crs(crs)), box)
     inset["labelled"] = True
     inset["svg_id"] = inset["code"]
     return inset
