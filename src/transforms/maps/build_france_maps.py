@@ -34,20 +34,30 @@ CREDIT = "© IGN – ADMIN EXPRESS (Licence Ouverte 2.0), via france-geojson"
 PROJECT_ROOT = Path(__file__).resolve().parents[3]  # src/transforms/maps/ -> project root
 OUTPUT_DIR = PROJECT_ROOT / "data" / "maps"
 STROKE_WIDTH = 1_200  # projected units (metres)
+DEPARTEMENT_STROKE_WIDTH = 900
+DEPARTEMENT_STROKE_COLOR = "#8c8c8c"
+REGION_STROKE_WIDTH = 3_500
 LABEL_SIZE = 12_000
 PRINT_WIDTH = "600mm"
 
 
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    raw_regions = fetch(SOURCES["regions"])
     layers = {
-        "departements": to_board_layout(fetch(SOURCES["departements"]), ZOOM_CODES),
-        "regions": to_board_layout(fetch(SOURCES["regions"])),
+        "departements": to_board_layout(
+            with_region_codes(fetch(SOURCES["departements"]), raw_regions), ZOOM_CODES
+        ),
+        "regions": to_board_layout(raw_regions),
     }
     for plate, layer, label_field in PLATES:
         path = OUTPUT_DIR / f"{plate}.svg"
         path.write_text(render_svg(layers[layer], label_field), encoding="utf-8")
         print(f"written: {path}")
+
+    path = OUTPUT_DIR / "departements_in_regions.svg"
+    path.write_text(render_region_plate(layers["departements"]), encoding="utf-8")
+    print(f"written: {path}")
 
 
 def fetch(url):
@@ -89,6 +99,16 @@ def to_board_layout(gdf, zoom_codes=()):
         )
 
     return gpd.GeoDataFrame(pd.concat([metropole, *insets], ignore_index=True))
+
+
+def with_region_codes(departements, regions):
+    """Tag each department with its region, by point-in-polygon on the region layer."""
+    points = departements.copy()
+    points.geometry = points.geometry.representative_point()
+    joined = points.sjoin(regions[["code", "geometry"]].rename(columns={"code": "region"}), how="left")
+    departements = departements.copy()
+    departements["region"] = joined["region"].values
+    return departements
 
 
 def flatten(gdf):
@@ -158,9 +178,58 @@ def render_svg(gdf, label_field):
 """
 
 
+def render_region_plate(gdf):
+    """Departments with name and number; regions read through weight and value."""
+    regions = gdf.dissolve(by="region")
+    regions.geometry = regions.buffer(50).buffer(-50)  # close the slivers left by simplification
+    left, bottom, right, top = gdf.total_bounds
+    pad = (right - left) * 0.02
+    view_box = f"{left - pad:.0f} {bottom - pad:.0f} {right - left + 2 * pad:.0f} {top - bottom + 2 * pad:.0f}"
+    flip = lambda y: bottom + top - y
+
+    shapes = "\n".join(
+        f'<path id="{row.svg_id}" data-name="{escape(row.nom)}" d="{to_path(row.geometry, flip)}"/>'
+        for row in gdf.itertuples()
+    )
+    borders = "\n".join(
+        f'<path id="region-{code}" d="{to_path(geometry, flip)}"/>'
+        for code, geometry in regions.geometry.items()
+    )
+    labels = "\n".join(
+        label_stack(row.geometry, row.nom, row.code, flip)
+        for row in gdf.itertuples() if row.labelled
+    )
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="{view_box}" width="{PRINT_WIDTH}">
+<!-- {CREDIT} -->
+<g id="shapes" fill="#ffffff" stroke="{DEPARTEMENT_STROKE_COLOR}" stroke-width="{DEPARTEMENT_STROKE_WIDTH}" stroke-linejoin="round">
+{shapes}
+</g>
+<g id="region-borders" fill="none" stroke="#000000" stroke-width="{REGION_STROKE_WIDTH}" stroke-linejoin="round">
+{borders}
+</g>
+<g id="labels" font-family="sans-serif" font-size="{LABEL_SIZE}" text-anchor="middle" fill="#000000">
+{labels}
+</g>
+</svg>
+"""
+
+
 def label_at(geometry, text, flip):
     point = geometry.representative_point()  # always inside the shape, unlike a centroid
     return f'<text x="{point.x:.0f}" y="{flip(point.y):.0f}">{escape(text)}</text>'
+
+
+def label_stack(geometry, name, code, flip):
+    """Name above, number below, as one movable text block."""
+    point = geometry.representative_point()
+    x = f"{point.x:.0f}"
+    return (
+        f'<text x="{x}" y="{flip(point.y):.0f}">'
+        f'<tspan x="{x}">{escape(name)}</tspan>'
+        f'<tspan x="{x}" dy="{LABEL_SIZE}" font-size="{LABEL_SIZE * 0.7:.0f}" fill="#666666">{code}</tspan>'
+        f"</text>"
+    )
 
 
 def to_path(geometry, flip):
